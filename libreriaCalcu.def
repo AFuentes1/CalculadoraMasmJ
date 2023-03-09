@@ -1,0 +1,6 @@
+LIBRARY libreriaCalcu
+EXPORTS
+    Java_Calculadora_sumar
+    Java_Calculadora_restar
+    Java_Calculadora_multiplicar
+    Java_Calculadora_dividir 
