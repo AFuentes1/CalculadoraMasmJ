@@ -17,7 +17,7 @@ public class Calculadora implements ActionListener{
     JPanel panel;
     static double n1;
     static double n2;
-    double resultado;
+    static double resultado;
 
     Calculadora(){
         frame = new JFrame("Calculadora");
@@ -111,7 +111,9 @@ public class Calculadora implements ActionListener{
 
 
     public static void main(String[] args){
+
         Calculadora ca = new Calculadora();
+
          //double resultado = ca.sumar(n1, n2);//*
          //String resultado1 = String.format("%.2f", resultado);
          //cajaDeTexto.setText(resultado1);
